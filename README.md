@@ -35,7 +35,9 @@ During this Grant we aim to develop and provide and extend USIs for DIA experime
 
 In addition, PRIDE Team is planning to extend PRIDE USI Viewer to enable the visualization of both use cases. 
 
+### Standarizing spectral libraries
 
+As part of the DIAexchange a standard file format for spectral libraries has been developed. The new developed format [mzSpecLib](https://github.com/HUPO-PSI/mzSpecLib) will enable to exchange spectral libraries for DIA workflows based on spectral libraries. 
 
 
 
