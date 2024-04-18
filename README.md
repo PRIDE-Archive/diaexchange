@@ -31,7 +31,11 @@ Two major tools could be used to visualize USI from ProteomeXchange projects/dat
 During this Grant we aim to develop and provide and extend USIs for DIA experiments including the development of examples to show HOW USIs could be generate from multiple popular DIA tools such as DIA-NN, quantms and others. In addition, we plan to extend the USIs to represent peptidoforms arising from multiple scans within the same MS run. Ongoing issues: 
 
 - [Geneting USIs for quantms workflow](https://github.com/PRIDE-Archive/diaexchange/issues/1)
-- [USIs for multiple scans withing the same MSrun]()
+- [Proposal for multiple scan representation of USIs](https://github.com/PRIDE-Archive/diaexchange/issues/2)
+
+In addition, PRIDE Team is planning to extend PRIDE USI Viewer to enable the visualization of both use cases. 
+
+
 
 
 
