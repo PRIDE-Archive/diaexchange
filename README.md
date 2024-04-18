@@ -14,5 +14,25 @@ Withing this project we aim to standarize the way DIA data is disaminated in the
 
 - Include multiple datasets examples about How to annotate properly DIA datasets in SDRF-proteomics.
 - Provide a list of well-annotated experiments in SDRF-proteomics for reanalysis by the community.
+- A new version of the SDRF-proteomics will be released including all the changes suggsted by the community, version 1.2 of SDRF.
+
+### USIs for DIA datasets
+
+The HUPO-PSI and ProteomeXchange Consortium have create a mechanism to visualize and retrieve the corresponding spectrum used to identified a given peptidoform. The initiative callled [universal spectrum identifier (USI)](https://www.nature.com/articles/s41592-021-01184-6). During the publication of the original specification we define multiple USIs for DDA experiments: 
+
+- [mzspec:PXD000561:Adult_Frontalcortex_bRP_Elite_85_f09:scan:17555:VLHPLEGAVVIIFK/2](https://www.ebi.ac.uk/pride/archive/usi?usi=mzspec:PXD000561:Adult_Frontalcortex_bRP_Elite_85_f09:scan:17555:VLHPLEGAVVIIFK/2&resultType=FULL)
+- [mzspec:PXD000966:CPTAC_CompRef_00_iTRAQ_05_2Feb12_Cougar_11-10-09.mzML:scan:12298:[iTRAQ4plex]-LHFFM[Oxidation]PGFAPLTSR/3](https://www.ebi.ac.uk/pride/archive/usi?usi=mzspec:PXD000966:CPTAC_CompRef_00_iTRAQ_05_2Feb12_Cougar_11-10-09.mzML:scan:12298:[iTRAQ4plex]-LHFFM[Oxidation]PGFAPLTSR/3&resultType=FULL)
+
+Two major tools could be used to visualize USI from ProteomeXchange projects/datasets: 
+
+- [PRIDE USI Viewer](https://www.ebi.ac.uk/pride/archive/usi)
+- [ProteomeCentral USI Viewer](https://proteomecentral.proteomexchange.org/usi/)
+
+During this Grant we aim to develop and provide and extend USIs for DIA experiments including the development of examples to show HOW USIs could be generate from multiple popular DIA tools such as DIA-NN, quantms and others. In addition, we plan to extend the USIs to represent peptidoforms arising from multiple scans within the same MS run. Ongoing issues: 
+
+- [Geneting USIs for quantms workflow](https://github.com/PRIDE-Archive/diaexchange/issues/1)
+- [USIs for multiple scans withing the same MSrun]()
+
+
 
    
